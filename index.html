@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>News Website</title>
     <link rel='stylesheet' href="./css/style.css">
+    <link rel="stylesheet" href="./css/res.css">
 </head>
 
 <body>
@@ -14,12 +15,13 @@
 
         <!--Header-->
 
-        <div class="header">
-            <div class="logo"><a href="index.html"><img id="img"src="./images/city.png" alt="No Image"></a></div>
+        <header>
+            <div class="logo"><a href="index.html"><img id="img" src="./images/city.png" alt="No Image"></a></div>
             <div class="company-name">
-                <p>The Brighton Times</p>
+                <p></p>The Brighton Times </p>
             </div>
-        </div>
+        </header>
+
 
         <div>
             <hr id="border">
@@ -29,151 +31,198 @@
 
         <div class="navi">
             <div>
-                <p>NEWS</p>
+                <a href="#">NEWS</a>
             </div>
             <div>
-                <p>EVENTS</p>
+                <a href="#">EVENTS</a>
             </div>
             <div>
-                <p>CULTURE</p>
+                <a href="#">CULTURE</a>
             </div>
             <div>
-                <p>BLOGS</p>
+                <a href="#"> BLOGS</a>
             </div>
         </div>
-
-        <!--Body Content-->
-        <div class="body-content">
-            <div class="main-content">
-                <h2>Absolutely astonishing breaking news!</h2>
-                <p id="body-content-p">
-                    Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim
-                    Vice ke yeh lomo
-                    Kickstarter art lomo Kickstarter art four loko
-                </p>
-            </div>
-        </div>
-
-
-        <!--Top-News-->
-        <div class="top-news">
-            <div id="top-news-header">
-                <div>Top News</div>
-                <div>+ more</div>
-            </div>
-            <div>
-                <hr id="top-news-hr">
-            </div>
-            <div id="top-news-content" style="list-style-type:none;">
-                <p>&#187 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est itaque cumque earum
-                    tenetur id maiores, sequi sit dicta quas!</p>
-                <hr>
-                <p>&#187 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta earum animi quas sint, maiores
-                    consequuntur perspiciatis eius nemo voluptate itaque!</p>
-                <hr>
-                <p>&#187 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, consequatur ut praesentium
-                    veritatis labore inventore ratione quae deleniti sed nisi?</p>
-                <hr>
-                <p>&#187 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, neque id rem laudantium
-                    doloribus cumque modi animi natus impedit laboriosam.</p>
-                <hr>
-                <p>&#187 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur aliquam architecto esse
-                    recusandae et iste dolorem eaque laudantium ipsum beatae?</p>
-                <hr>
-            </div>
-        </div>
-
-        <!--Sports-Updates-->
-        <div class="sports-updates">
-
-            <div id="sports-head">
-                <div>Date</div>
-                <div>Team</div>
-                <div>Score</div>
-                <div>Team</div>
-            </div>
-            <div id="sports-content">
-                <div id="row">
-                    <div id="row11">Friday</div>
-                    <div id="row12">Bears</div>
-                    <div class="column3">
-                        <div id="team1-score">95</div>
-                        <div id="team2-score"><strong>109</strong></div>
+        <div class="tablet">
+            <div class="main-news">
+                <div class="main-photo">
+                    <img src="./images/dog.jpg" class="main-photo-img">
+                    <div class="NewsTitle">
+                        <h2 class="NewsHeading">Absolutely astonishing breaking news!</h2>
+                        <p class="NewsDescription">Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter
+                            art
+                            four loko. Organic raw denim Vice ke yeh lomo
+                            Kickstarter art lomo Kickstarter art four loko.</p>
                     </div>
-                    <div id="row14"><strong>Cubs</strong></div>
-                </div>
-                <div id="row">
-                    <div id="row11">Friday</div>
-                    <div id="row12"><strong>Otters</strong></div>
-                    <div class="column3">
-                        <div id="team1-score"><strong>3</strong></div>
-                        <div id="team2-score">1</div>
-                    </div>
-                    <div id="row14">Cubs</div>
                 </div>
 
-                <div id="row">
-                    <div class="column">Saturday</div>
-                    <div class="column"><strong>Wolves</strong></div>
-                    <div class="column3">
-                        <div id="team1-score"><strong>7</strong></div>
-                        <div id="team2-score">0</div>
-                    </div>
-                    <div class="column">Panthers</div>
+            </div>
+            <!--Top-News-->
+            <div class="top-news">
+                <div id="top-news-header">
+                    <div>Top News</div>
+                    <div>+ more</div>
                 </div>
-                <div id="row">
-                    <div class="column">Sunday</div>
-                    <div class="column">Hawks</div>
-                    <div class="column3">
-                        <div id="team1-score">11</div>
-                        <div id="team2-score"><strong>12</strong></div>
-                    </div>
-                    <div class="column"><strong>Capons</strong></div>
+                <div>
+                    <hr id="top-news-hr">
                 </div>
-                <div id="row">
-                    <div class="column">Sunday</div>
-                    <div class="column"><strong>Stags</strong></div>
-                    <div class="column3">
-                        <div id="team1-score"><strong>6</strong></div>
-                        <div id="team2-score">2</div>
-                    </div>
-                    <div class="column">Foxes</div>
+                <div id="top-news-content" style="list-style-type:none;">
+                    <p>&#187 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est itaque cumque earum
+                        tenetur id maiores, sequi sit dicta quas!</p>
+                    <hr>
+                    <p>&#187 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta earum animi quas sint,
+                        maiores
+                        consequuntur perspiciatis eius nemo voluptate itaque!</p>
+                    <hr>
+                    <p>&#187 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, consequatur ut praesentium
+                        veritatis labore inventore ratione quae deleniti sed nisi?</p>
+                    <hr>
+                    <p>&#187 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, neque id rem laudantium
+                        doloribus cumque modi animi natus impedit laboriosam.</p>
+                    <hr>
+                    <p>&#187 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur aliquam architecto
+                        esse
+                        recusandae et iste dolorem eaque laudantium ipsum beatae?</p>
+                    <hr>
                 </div>
             </div>
-        </div>
 
-        <!--Weather-Updates-->
-        <div class="weather">
-            <div class="weather-head">
-                <div>Brighton, UK</div>
-                <div id="current-weather">Sunny</div>
-            </div>
-            <div class="weather-today">
-                <div id="w-t-img"><img src="./images/weather.png" alt="image"></div>
-                <div id="w-t-temp">13</div>
-                <div id="w-t-unit">&#176C</div>
-            </div>
-            <div class="weather-forecast">
-                <div id="day">
-                    <div>Mon</div>
-                    <div>Tue</div>
-                    <div>Wed</div>
-                    <div>Thu</div>
-                    <div>Fri</div>
+            <!--Sports-Updates-->
+            <div class="sports-updates">
+
+                <!-- <div id="sports-head">
+                    <div>Date</div>
+                    <div>Team</div>
+                    <div>Score</div>
+                    <div>Team</div>
                 </div>
-                <div id="img">
-                    <div><img id="weather-image" src="./images/sunny.png" alt="image"></div>
-                    <div><img id="weather-image" src="./images/cloudy.png" alt="image"></div>
-                    <div><img id="weather-image" src="./images/cloudy.png" alt="image"></div>
-                    <div><img id="weather-image" src="./images/rain.png" alt="image"></div>
-                    <div><img id="weather-image" src="./images/sunny.png" alt="image"></div>
+                <div id="sports-content">
+                    <div id="row">
+                        <div id="row11">Friday</div>
+                        <div id="row12">Bears</div>
+                        <div class="column3">
+                            <div id="team1-score">95</div>
+                            <div id="team2-score"><strong>109</strong></div>
+                        </div>
+                        <div id="row14"><strong>Cubs</strong></div>
+                    </div>
+                    <div id="row">
+                        <div id="row11">Friday</div>
+                        <div id="row12"><strong>Otters</strong></div>
+                        <div class="column3">
+                            <div id="team1-score"><strong>3</strong></div>
+                            <div id="team2-score">1</div>
+                        </div>
+                        <div id="row14">Cubs</div>
+                    </div>
+
+                    <div id="row">
+                        <div class="column">Saturday</div>
+                        <div class="column"><strong>Wolves</strong></div>
+                        <div class="column3">
+                            <div id="team1-score"><strong>7</strong></div>
+                            <div id="team2-score">0</div>
+                        </div>
+                        <div class="column">Panthers</div>
+                    </div>
+                    <div id="row">
+                        <div class="column">Sunday</div>
+                        <div class="column">Hawks</div>
+                        <div class="column3">
+                            <div id="team1-score">11</div>
+                            <div id="team2-score"><strong>12</strong></div>
+                        </div>
+                        <div class="column"><strong>Capons</strong></div>
+                    </div>
+                    <div id="row">
+                        <div class="column">Sunday</div>
+                        <div class="column"><strong>Stags</strong></div>
+                        <div class="column3">
+                            <div id="team1-score"><strong>6</strong></div>
+                            <div id="team2-score">2</div>
+                        </div>
+                        <div class="column">Foxes</div>
+                    </div>
+                </div> -->
+                <table class="table-1">
+                    <tr class="table-head-row">
+                        <th>date</th>
+                        <th>team</th>
+                        <th class="column-1" colspan="2">score</th>
+                        <th>team</th>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="col-1">Friday</td>
+                        <td>Bears</td>
+                        <td>95</td>
+                        <td class='b'>109</td>
+                        <td>Cubs</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="col-1">Friday</td>
+                        <td class='b'>Otters</td>
+                        <td class='b'>3</td>
+                        <td>1</td>
+                        <td>Cubs</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="col-1">Saturday</td>
+                        <td class='b'>Wolves</td>
+                        <td class='b'>7</td>
+                        <td>0</td>
+                        <td>Panthers</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="col-1">Sunday</td>
+                        <td>Hawks</td>
+                        <td>11</td>
+                        <td class='b'>12</td>
+                        <td class='b'>Capons</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="col-1">Sunday</td>
+                        <td class='b'>Stags</td>
+                        <td class='b'>6</td>
+                        <td>2</td>
+                        <td>Foxes</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <!--Weather-Updates-->
+            <div class="weather">
+                <div class="weather-head">
+                    <div>Brighton, UK</div>
+                    <div id="current-weather">Sunny</div>
                 </div>
-                <div id="temp">
-                    <div>17&#176C</div>
-                    <div>14&#176C</div>
-                    <div>13&#176C</div>
-                    <div>14&#176C</div>
-                    <div>16&#176C</div>
+                <div class="weather-today">
+                    <div id="w-t-img"><img src="./images/weather.png" alt="image"></div>
+                    <div id="w-t-temp">13</div>
+                    <div id="w-t-unit">&#176C</div>
+                </div>
+                <div class="weather-forecast">
+                    <div id="day">
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                    </div>
+                    <div id="img">
+                        <div><img id="weather-image" src="./images/sunny.png" alt="image"></div>
+                        <div><img id="weather-image" src="./images/cloudy.png" alt="image"></div>
+                        <div><img id="weather-image" src="./images/cloudy.png" alt="image"></div>
+                        <div><img id="weather-image" src="./images/rain.png" alt="image"></div>
+                        <div><img id="weather-image" src="./images/sunny.png" alt="image"></div>
+                    </div>
+                    <div id="temp">
+                        <div>13&#176C</div>
+                        <div>13&#176C</div>
+                        <div>13&#176C</div>
+                        <div>13&#176C</div>
+                        <div>13&#176C</div>
+                    </div>
                 </div>
             </div>
         </div>

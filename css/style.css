@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
 .container {
   width: 90%;
   margin: 5%;
-  display: flex;
-  flex-direction: column;
 }
 
-.header {
-  width: 100%;
+header {
+
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 0.9%;
+
 }
 
 .logo {
   width: 15%;
-  /* background-color: aqua; */
+  height: 100%;
+}
+
+#img {
+  height: 100%;
 }
 
 .company-name {
-  width: 85%;
-  font-size: 3.5em;
-  /* background-color: aqua; */
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  color: black;
 }
-  /* background-color: aquamarine */
+
 
 
 #border {
@@ -41,40 +48,49 @@
   padding-bottom: 1%;
 }
 
-.body-content {
-  width: 100%;
-  height: 550px;
-  background-color: rgb(214, 228, 228);
-  background-image: url("../images/dog.jpg");
-  background-size: 100% auto;
-  background-position: -20%;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column-reverse;
-  border-style: solid;
-  border-width: 0.06vw;
-  border-color: #ece9e9;
-
+.navi>div>a {
+  color: #000000
 }
 
-.main-content {
+.tablet {
   width: 100%;
-  background-color: rgb(255, 255, 255);
-  padding-bottom: 0.9%;
-  color: #524f4f;
-  height: auto;
-
 }
 
-#body-content-p {
-  font-size: 140%;
-  padding-bottom: 0.9%;
+.main-news {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  /* background-color: salmon; */
+}
+
+.main-photo {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* background-color: brown; */
+}
+
+.main-photo-img {
+  height: 100%;
+  width: 100%;
+  padding: auto;
+  object-fit: cover;
+}
+
+.NewsTitle {
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  color: gray;
+  font-family: sans-serif;
+  width: 100%;
 }
 
 .top-news {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 1em;
   padding-bottom: 0.9%;
   color: #524f4f;
 }
@@ -85,7 +101,7 @@
   justify-content: space-between;
 }
 
-.sports-updates {
+/* .sports-updates {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -114,6 +130,31 @@
   display: flex;
   width: 5%;
   justify-content: space-between;
+}  */
+table {
+  width: 100%;
+  height: 25em;
+  padding: 20px 10px 5px 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table>div{
+  font-size: 1em;
+}
+tr:nth-child(odd) {
+  background: white;
+}
+
+td {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+
+#bold {
+  font-weight: 500;
+  color: #000000;
 }
 
 .weather {
@@ -125,7 +166,7 @@
 .weather-head {
   display: flex;
   flex-direction: column;
-  font-size: 170%;
+  font-size: 2em;
 
 }
 
@@ -149,7 +190,7 @@
 .weather-forecast>div {
   display: flex;
   justify-content: space-around;
-  font-size: 120%;
+  font-size: 1.5em;
   color: #524f4f;
 }
 
@@ -202,15 +243,3 @@
   padding-bottom: 0.9%;
   color: #524f4f;
 }
-/* MEDIA-QUERIES */
-/* @media(max-width:480px)
-{
-.header{
-  width: 100%;
-  background-color: #616161
-}
-.logo{
-background-color: aqua;
-
-}
-} */
