@@ -17,15 +17,15 @@
     }
 
 
-    .navi {
+    .navigation {
         width: 100%;
     }
 
-    .navi>div {
+    .navigation>div {
         font-size: 0.5em;
     }
 
-    .tablet {
+    .body-content {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -35,7 +35,6 @@
     .main-news {
         order: 1;
         width: 50%;
-        /* position: relative; */
         height: 300px;
     }
 
@@ -43,7 +42,6 @@
 
         background-size: 100% 100%;
         background-position: -20%;
-        /* font-weight: 500; */
         font-size: 2vw;
         height: auto;
 
@@ -74,14 +72,6 @@
         height: 300px;;
     }
 
-    /* .main-content {
-        width: 20%;
-        background-color: rgb(255, 255, 255);
-        padding-bottom: 0.9%;
-        color: #524f4f;
-        
-
-    } */
     .weather-head {
         height: 20%;
     }
@@ -137,13 +127,19 @@ table>div
         background: gray;
     }
 
-
     td {
         margin: 0.5em;
         padding: 0.5em;
     }
 
-    /* .navi{} */
+.latest-news-head div
+{
+font-size: 0.7em;
+}
+.latest-news-content-head
+{
+    font-size: 0.5em;
+}
 
 }
 
