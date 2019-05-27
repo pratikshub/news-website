@@ -36,8 +36,6 @@
 
     .main-news>div {
 
-        background-size: 100% 100%;
-        background-position: -20%;
         font-size: 2vw;
         height: auto;
 
@@ -52,6 +50,8 @@
         opacity: 0.5;
         position: absolute;
         bottom: 0%;
+        background-color: black;
+        color: aliceblue;
     }
 
     .NewsHeading {
@@ -117,12 +117,16 @@
         border-collapse: collapse;
     }
 
-    table>div {
+    table {
+        width: 100%;
         font-size: 0.5em;
+    }
+    #table-head-row{
+        background:rgb(80, 179, 192);
     }
 
     tr:nth-child(odd) {
-        background: gray;
+        background-color: gray;
     }
 
     td {
@@ -191,25 +195,32 @@
     .top-news{
         font-size: 0.8em;
     }
-    .table{
+    table {
         width: 100%;
-        height: 20em;
-        padding: 20px 10px 5px 10px;
-        text-align: center;
-        border-collapse: collapse;
+        font-size: 0.5em;
     }
-    table>div {
-        font-size: 0.2em;
+    #table-head-row{
+        background:rgb(80, 179, 192);
     }
 
     tr:nth-child(odd) {
-        background: gray;
+        background-color: gray;
     }
 
     td {
         margin: 0.5em;
         padding: 0.5em;
     }
+
+    .latest-news-head div {
+        font-size: 0.7em;
+    }
+
+    .latest-news-content-head {
+        font-size: 0.5em;
+    }
+
+
     /* .weather
     {
         
