@@ -188,7 +188,7 @@ td {
 
 
 .footer {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding-bottom: 0.9%;

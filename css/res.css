@@ -236,6 +236,6 @@
         height: 30%;
     }
     footer{
-        justify-content: space-around
+        font-size:0.5em;
     }
 }
