@@ -156,7 +156,6 @@
         position: fixed;
         background-color:white;
         z-index: 1;
-        /* align-items: center; */
     }
 
     .logo {
@@ -182,7 +181,6 @@
     .main-news {
         width: 100%;
         height: 230px;
-        /* position: fixed; */
         font-size: 1.7vw;
        
     }
@@ -190,7 +188,8 @@
     .NewsTitle {
         opacity: 0.8;
         bottom: 0%;
-        color: black;
+        color:white;
+        background-color: black
     }
     .top-news{
         font-size: 0.8em;
@@ -220,11 +219,6 @@
         font-size: 0.5em;
     }
 
-
-    /* .weather
-    {
-        
-    } */
     .weather-head>div {
         font-size: 0.5em;
 
